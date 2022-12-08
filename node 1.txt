@@ -1,0 +1,34 @@
+after doing k8s every server first code process
+
+sudo su
+
+kubeadm version
+
+kubectl version
+
+kubelet --version
+
+containerd --version
+
+cat etc/hosts
+
+cat etc/hosts
+
+vi etc/hosts
+
+press i
+
+10.1.0.6 k8s-node1-cp.cloudbinary.io
+10.3.0.4 k8s-node1-cp.cloudbinary.io
+
+press esc
+
+:wq
+
+pwd 
+
+sudo su
+
+#sudo kubeadm init --pod-network-cidr=10.10.0.0/16 after compile this command it shows it a link with a ip address of the k8s-control plane server#--this link comes in k8s-cp server
+
+paste that link here --- cluster is connected to this server
